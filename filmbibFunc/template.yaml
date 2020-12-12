@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  filmbibFunc:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      FunctionName: filmbibFunc
+      Description: ''
+      Handler: index.handler
+      MemorySize: 128
+      Role: 'arn:aws:iam::819143971465:role/service-role/filmbibFunc-role-10wo77qj'
+      Runtime: nodejs12.x
+      Timeout: 3

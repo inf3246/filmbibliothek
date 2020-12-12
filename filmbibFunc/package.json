@@ -1,0 +1,19 @@
+{
+  "name": "durchstich",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "durchstich"
+  ],
+  "author": "SKU",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ask-sdk": "^2.0.0"
+  }
+}
